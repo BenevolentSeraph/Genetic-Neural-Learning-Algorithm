@@ -1,0 +1,12 @@
+I DID THIS WRONG!
+The output layer of neurons should be the same. I also used too many biases; there should only be 1 per neuron. For a better example, chest test.py in the main directory.
+
+Inputs: 4
+Neurons: 1
+Weights: 4
+Biases: 4
+Outputs: 1 (an action: move in 1 of 4 directions: left, right, up, or down)
+
+Able to do simple tasks like go up,down,left, or right.
+
+Difficult to perform multiple tasks such as going to a corner instead of just half of the map. This is because it doesn't take in enough input to make a good enough guess on where it needs to go. It only looks at the closest spots that it can immediately move to.
